@@ -26,3 +26,5 @@ You might also want to change the listening port from 3000 to something else
 ```
 cat /tmp/http_response | nc -lN 3000 | http_request
 ```
+
+rest_busybox.sh is the same tool but it is compatible with the busybox shell which is used with embedded Linux
